@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #272E74;
+    color: white;
+}
+
+.header .name {
+    padding: 16px;
+    font-size: 32px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+
+.author-box {
+    display: flex;
+    width: 70vw;
+    margin: 16px auto auto auto;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.author-box>div {
+    flex: 1;
+}
+
+.author-info {
+    padding: 40px;
+}
+
+.author-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.author-description {
+    font-size: 14px;
+}
