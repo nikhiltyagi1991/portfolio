@@ -1,0 +1,39 @@
+.profile-container {
+    background-color: #EAE5E5;
+    
+    .profile-photo {
+        border-radius: 50%;
+        height: 500px;
+    }
+    
+    .profile-heading {
+        font: normal normal bold 80px/1.2em 'noticia text',serif;
+        color: #4D4D4D;
+    }
+    
+    .profile-sub-heading {
+        font: normal normal normal 46px/1.2em 'noticia text',serif;
+        color: #4D4D4D;
+    }
+    
+    .higlight-buttons>div {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        text-align: center;
+        margin: 8px;
+        justify-content: center;
+        background-color: #868a87;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    
+    .higlight-buttons>div a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .higlight-buttons>div:hover {
+        background-color: #606361;
+    }
+}

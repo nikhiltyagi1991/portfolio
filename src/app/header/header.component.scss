@@ -1,0 +1,22 @@
+.header-container {
+    background-color: #EAE5E5;
+    .heading {
+        font: normal normal bold 43px/1.4em 'noticia text',serif;
+        font-weight: bold;
+        color: #4D4D4D;
+    }
+
+    .sub-heading {
+        font: normal normal bold 43px/1.4em 'noticia text',serif;
+        font-size: 18px;
+        color: #4D4D4D;
+        margin-right: 150px;
+    }
+
+    .menu-items a {
+        text-decoration: none;
+        padding: 8px 16px;
+        color: #8B8B8B;
+        font-weight: bold;
+    }
+}

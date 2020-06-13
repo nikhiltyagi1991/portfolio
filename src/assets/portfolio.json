@@ -1,0 +1,114 @@
+{
+    "name": "Kiran Rawat",
+    "designation": "Data Scientist",
+    "email": "rawat.kiran111@gmail.com",
+    "phone": "+1236-866-1611",
+    "linkedin": "https://www.linkedin.com/in/k-rawat",
+    "facebook": "https://www.facebook.com/kiti.rawat11",
+    "intro": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story and let your users get to know you.",
+    "skills": [
+        {
+            "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost,CatBoost, LightGBM, SVM",
+            "Languages": "Python, R, Java, PHP, Angular, Bash Scripting, JavaScript, SQL",
+            "Frameworks": "Apache Spark, Anaconda/Spyder, Maven, Spring",
+            "Development and Deployment Tools": "Openshift, Docker, Kubernetes, Git, JIRA, Jupyter, VS Code, RStudio",
+            "Databases": "NoSQL Cassandra, MySQL, Oracle 10g",
+            "Hadoop Ecosystems": "HDFS, Kafka, Map Reduce, Hadoop Streaming",
+            "Cloud Computing Services": "AWS, GCP",
+            "Visualization Tools and Libraries": "Tableau,Kibana, D3.js, Matplotlib, Plotly, Seaborn"
+        }
+    ],
+    "workexperience": [
+        {
+            "Organization": "SSR Mining Inc.",
+            "location": "Vancouver, BC, Canada",
+            "Designation": "Data Science Intern",
+            "Duration": "May 2019 – Feb 2020",
+            "Responsibilities": "Collected and processed mining exploration data, Performed oversampling using SMOTE(Synthetic Minority Oversampling Technique), Developed decision tree and deep learning classifers to predict the gold distribution at SSR’s Gold mine site.",
+            "Skills": "Spark, S3, EC2, XGboost, LightGBM, CatBoost, Random Forest, SVM, H2O, MultiLayerPerceptron."
+        },
+        {
+            "Organization": "Simon Fraser University",
+            "location": "Burnaby, BC, Canada",
+            "Designation": "Teaching Assistant",
+            "course": "CMPT 225 - Data Structures and Programming",
+            "Duration": "Sep 2019 – Dec 2019",
+            "Responsibilities": "Provided assistance with assignments and lectures to 111 undergraduate students."
+        },
+        {
+            "Organization": "Infosys Limited",
+            "Designation": "Senior Systems Engineer",
+            "location": "Chandigarh, India",
+            "Duration": "Sep 2016 – Jul 2018",
+            "Responsibilities": "Worked on various UI modules written in AngularJS and designed intuitive and useful interfaces based on client demands., Gathered requirements from the client on a daily basis and developed high-level diagrams and designs to incorporate new features in existing application.,Followed agile methodology for development and testing process.",
+            "Skills": "MySQL, Typescript, Java, HTML5, JQuery, CSS, Spring MVC."
+        },
+        {
+            "Organization": "Infosys Limited",
+            "location": "Bhubaneswar, India",
+            "Designation": "Systems Engineer",
+            "Duration": "Feb 2015 – Aug 2016",
+            "Responsibilities": "Worked as the sole programmer on this project, handled requirement gathering, designing, coding and releasing timely deliverables on the production environment.",
+            "skills": "PHP, jQuery, AJAX, JavaScript, HTML, CSS, MySQL, SVN, JSON."
+        }
+    ],
+    "education": [
+        {
+            "School": "Simon Fraser University",
+            "Education Level": "Master's in Computer Science(Big Data)",
+            "Key Courses": "Machine Learning, Statistical Learning and Prediction, Programming in Big Data, Visualization, Big Data Systems, Algorithm in Big Data",
+            "duration": "Sep 2018–Apr 2020",
+            "CGPA": "3.85"
+        },
+        {
+            "School": "Uttarakhand Technical University",
+            "Education Level": "Bachelor's of Technology(Computer Science)",
+            "Key Courses": "Data Mining, Data Structures, Database Management Systems, Design and Analysis of Algorithms",
+            "duration": "Aug 2011–Jun 2014",
+            "Percentage": "80"
+        },
+        {
+            "School": "Govt. Ploytechnic Insititute",
+            "Education Level": "Diploma in Computer Science",
+            "Key Courses": "Database Management, Software Engineering, ",
+            "duration": "Aug 2008–Jul 2011",
+            "Percentage": "77"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Understanding Global Poverty Using Visualization, Simon Fraser University",
+            "about": "Developed a visualization dashboard by utilizing visualization principles to understand the global poverty and various factors related to it.",
+            "dashboard-link": "https://povertyviz.herokuapp.com/",
+            "github url": "https://github.com/kiranrawat/extreme-poverty-visualization"
+        },
+        {
+            "title": "Predicting Stable Portfolios using Machine Learning and Deep Learning",
+            "about": "Analyzed effect of sentiments of SEC filings on stock prices of S&P500 companies and predicted a stable portfolio based on sentiment scores and OHLC data using neural networks.",
+            "github url": "https://github.com/kiranrawat/equity-portfolio-prediction"
+        },
+        {
+            "title": "NYC Taxi Analysis, Simon Fraser University",
+            "about": "Performed ETL using PySpark and analyzed the dataset to provide the insights on how the taxi vendors in NYC can improve their business. Visualized the results using Kibana framework.",
+            "github url": "https://github.com/kiranrawat/Insights-to-the-existing-taxi-business-in-NYC."
+        }
+    ],
+    "achivements": [],
+    "blogs": [
+        {
+            "title": "Predicting Stable Portfolios Using Machine Learning",
+            "date": "Apr 14, 2019",
+            "link": "https://medium.com/sfu-cspmp/predicting-stable-portfolios-using-machine-learning-f2e27d6dbbec"
+        },
+        {
+            "title": "Deep Learning using BigDL",
+            "date": "Mar 08, 2019",
+            "link": "https://medium.com/sfu-cspmp/when-deep-learning-got-big-a833a69be460"
+        }
+    ],
+    "hobbies": [
+        "Cooking",
+        "Hiking",
+        "Dancing"
+    ]
+}
