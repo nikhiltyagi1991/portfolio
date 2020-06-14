@@ -21,7 +21,7 @@
             </div>
             <div>
                 <div class="footer-heading">Contact</div>
-                <div>E: <span>{{ data['email'] }}</span></div>
+                <div><a href="mailto:{{ data['email'] }}">{{ data['email'] }}</a></div>
             </div>
         </div>
         <div class="is-flex flex-space">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="is-flex flex-space">
+        <div class="is-flex flex-space flex-content-centre">
             <div>
                 <span class="fa-stack">
                     <i class="fas fa-circle fa-stack-2x"></i>
@@ -49,7 +49,7 @@
                 </span>
             </div>
             <div>
-                <div>Follow me</div>
+                <div class="">{{ data['copyright'] }}</div>
             </div>
         </div>
     </div>

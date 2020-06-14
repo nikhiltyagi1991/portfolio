@@ -7,15 +7,15 @@
             <div class="profile-heading">Hello,</div>
             <div class="profile-sub-heading">a bit about me:</div>
             <div class="is-flex higlight-buttons">
-                <div class="padding is-flex flex-content-centre">
-                    <div><a href="/education">My Education</a></div>
-                </div>
-                <div class="padding is-flex flex-content-centre">
-                    <div><a href="/projects">My Work</a></div>
-                </div>
-                <div class="padding is-flex flex-content-centre">
-                    <div><a href="/skills">My Skills</a></div>
-                </div>
+                <a routerLink="/education" class="padding is-flex flex-content-centre">
+                    <div>My Education</div>
+                </a>
+                <a routerLink="/projects" class="padding is-flex flex-content-centre">
+                    <div>My Work</div>
+                </a>
+                <a routerLink="/skills" class="padding is-flex flex-content-centre">
+                    <div>My Skills</div>
+                </a>
             </div>
             <div>
                 {{ data['intro'] }}

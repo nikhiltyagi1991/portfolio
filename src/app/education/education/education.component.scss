@@ -1,0 +1,70 @@
+.education-container{
+    background-color: #EAE5E5;
+    .heading {
+        padding-top: 32px;
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .academics-container {
+        flex:2;
+    }
+
+    .schools-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        .education {
+            width: 45%;
+            padding: 16px;
+
+            .school-inner-container {
+                box-shadow: 5px 5px 5px #F1F2F3;
+                padding: 16px;
+                background-color: white;
+                border-radius: 8px;
+                border-bottom: 8px solid #e33d3d;
+            }
+
+            .title {
+                font-size: 24px;
+                font-weight: 400;
+                margin-top: 8px;
+            }
+
+            .courses {
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-top: 16px;
+
+                .course {
+                    padding: 8px;
+                    background-color: #F1F2F3;
+                    border-radius: 16px;
+                    font-size: 12px;
+                    
+
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+                }
+            }
+
+            .edu-desc {
+                margin: 32px 0px;
+            }
+        }
+    }
+
+    .skills-container {
+        flex: 1;
+        .skill-heading {
+            font-size: 20px;
+            font-weight: 500;
+            margin: 16px 0px 6px 0px;
+        }
+    }
+
+    
+}

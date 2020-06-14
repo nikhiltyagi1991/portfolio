@@ -1,0 +1,53 @@
+<div class="education-container">
+    <div class="container">
+        <div class="is-flex">
+            <div class="academics-container">
+                <div class="heading">Academics</div>
+                <div class="schools-container">
+                    <div class="education" *ngFor="let education of data['education']">
+                        <div class="school-inner-container">
+                            <div class="is-flex">
+                                <div>{{ education['duration'] }}</div>
+                                <div class="flex-space"></div>
+                                <div title="score">{{ education['score'] }}</div>
+                            </div>
+                            <div class="title">{{ education['Education Level'] }}</div>
+                            <div class="courses">
+                                <div class="course" *ngFor="let course of split(education['Key Courses'])">
+                                    {{ course }}
+                                </div>
+                            </div>
+                            <div class="edu-desc">{{ education['desc'] }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div>
+                    <div class="heading">Skills</div>
+                    <div>
+                        <div *ngFor="let key of keys(data['skills'])">
+                            <div class="skill-heading">{{ key }}</div>
+                            <div>{{ data['skills'][key] }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="heading">Blogs</div>
+                    <div>
+                        <div *ngFor="let blog of data['blogs']">
+                            <a href="{{ blog['link'] }}">{{ blog['title'] }}</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="heading">Hobbies</div>
+                    <div>
+                        <div *ngFor="let hobby of data['hobbies']">{{ hobby }}</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

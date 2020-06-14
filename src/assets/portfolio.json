@@ -5,19 +5,18 @@
     "phone": "+1236-866-1611",
     "linkedin": "https://www.linkedin.com/in/k-rawat",
     "facebook": "https://www.facebook.com/kiti.rawat11",
-    "intro": "Hello, I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story and let your users get to know you.",
-    "skills": [
-        {
-            "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost,CatBoost, LightGBM, SVM",
-            "Languages": "Python, R, Java, PHP, Angular, Bash Scripting, JavaScript, SQL",
-            "Frameworks": "Apache Spark, Anaconda/Spyder, Maven, Spring",
-            "Development and Deployment Tools": "Openshift, Docker, Kubernetes, Git, JIRA, Jupyter, VS Code, RStudio",
-            "Databases": "NoSQL Cassandra, MySQL, Oracle 10g",
-            "Hadoop Ecosystems": "HDFS, Kafka, Map Reduce, Hadoop Streaming",
-            "Cloud Computing Services": "AWS, GCP",
-            "Visualization Tools and Libraries": "Tableau,Kibana, D3.js, Matplotlib, Plotly, Seaborn"
-        }
-    ],
+    "intro": "I am a hardworking and self-motivated person who doesn't easily give up on the challenges. My peers describe me as a confident person with excellent presentation skills. I have a knack for solving puzzles and understanding complex problems. I like to have a positive outlook on my work and strive for perfection in my daily tasks. According to my peers, I get along well with people and never hesitate to ask questions.  Looking at my past, I can say that I have a lot to learn, and I am willing to give my 100% for my next project. In today's innovative culture, data is a massive part in deciding the company's future. I want to utilize my skills as a Software Engineer and Data Scientist to create a progressive environment. In my 5+ years of experience, I have steered successful projects in both small and large teams.",
+    "copyright": "© 2020 by Kiran Rawat.",
+    "skills": {
+        "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost,CatBoost, LightGBM, SVM",
+        "Languages": "Python, R, Java, PHP, Angular, Bash Scripting, JavaScript, SQL",
+        "Frameworks": "Apache Spark, Anaconda/Spyder, Maven, Spring",
+        "Development and Deployment Tools": "Openshift, Docker, Kubernetes, Git, JIRA, Jupyter, VS Code, RStudio",
+        "Databases": "NoSQL Cassandra, MySQL, Oracle 10g",
+        "Hadoop Ecosystems": "HDFS, Kafka, Map Reduce, Hadoop Streaming",
+        "Cloud Computing Services": "AWS, GCP",
+        "Visualization Tools and Libraries": "Tableau,Kibana, D3.js, Matplotlib, Plotly, Seaborn"
+    },
     "workexperience": [
         {
             "Organization": "SSR Mining Inc.",
@@ -58,21 +57,24 @@
             "Education Level": "Master's in Computer Science(Big Data)",
             "Key Courses": "Machine Learning, Statistical Learning and Prediction, Programming in Big Data, Visualization, Big Data Systems, Algorithm in Big Data",
             "duration": "Sep 2018–Apr 2020",
-            "CGPA": "3.85"
+            "score": "3.85",
+            "desc": "​I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
         },
         {
             "School": "Uttarakhand Technical University",
             "Education Level": "Bachelor's of Technology(Computer Science)",
             "Key Courses": "Data Mining, Data Structures, Database Management Systems, Design and Analysis of Algorithms",
             "duration": "Aug 2011–Jun 2014",
-            "Percentage": "80"
+            "score": "80%",
+            "desc": "​I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
         },
         {
             "School": "Govt. Ploytechnic Insititute",
             "Education Level": "Diploma in Computer Science",
-            "Key Courses": "Database Management, Software Engineering, ",
+            "Key Courses": "Database Management, Software Engineering",
             "duration": "Aug 2008–Jul 2011",
-            "Percentage": "77"
+            "score": "77%",
+            "desc": "​I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
         }
     ],
     "projects": [

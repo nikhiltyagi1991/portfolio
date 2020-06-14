@@ -1,5 +1,6 @@
 .profile-container {
     background-color: #EAE5E5;
+    min-height: 80vh;
     
     .profile-photo {
         border-radius: 50%;
@@ -16,7 +17,7 @@
         color: #4D4D4D;
     }
     
-    .higlight-buttons>div {
+    .higlight-buttons>a {
         height: 100px;
         width: 100px;
         border-radius: 50%;
@@ -26,14 +27,10 @@
         background-color: #868a87;
         cursor: pointer;
         font-weight: 600;
-    }
-    
-    .higlight-buttons>div a {
-        text-decoration: none;
         color: white;
     }
     
-    .higlight-buttons>div:hover {
+    .higlight-buttons>a:hover {
         background-color: #606361;
     }
 }
