@@ -1,5 +1,9 @@
 .header-container {
     background-color: #EAE5E5;
+    @media only screen and (max-width: 768px) {
+        padding: 8px;
+    }
+    
     .heading {
         font-size: 43px;
         font-weight: bold;

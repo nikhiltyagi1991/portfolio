@@ -20,6 +20,14 @@ a {
 
 .is-flex {
     display: flex;
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.is-flex-dm {
+    display: flex;
 }
 
 .flex-space{

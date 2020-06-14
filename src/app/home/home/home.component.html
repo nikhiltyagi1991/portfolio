@@ -6,7 +6,7 @@
         <div class="padding">
             <div class="profile-heading">Hello,</div>
             <div class="profile-sub-heading">a bit about me:</div>
-            <div class="is-flex higlight-buttons">
+            <div class="is-flex-dm higlight-buttons">
                 <a routerLink="/education" class="padding is-flex flex-content-centre">
                     <div>My Education</div>
                 </a>
@@ -17,8 +17,7 @@
                     <div>My Skills</div>
                 </a>
             </div>
-            <div>
-                {{ data['intro'] }}
+            <div [innerHTML]="data['intro']">
             </div>
         </div>
     </div>

@@ -5,6 +5,11 @@
     .profile-photo {
         border-radius: 50%;
         height: 500px;
+
+        @media only screen and (max-width: 768px) {
+            width: 80vw;
+            height: auto;
+        }
     }
     
     .profile-heading {
@@ -28,6 +33,10 @@
         cursor: pointer;
         font-weight: 600;
         color: white;
+        @media only screen and (max-width: 768px) {
+            height: 60px;
+            width: 60px;
+        }
     }
     
     .higlight-buttons>a:hover {
