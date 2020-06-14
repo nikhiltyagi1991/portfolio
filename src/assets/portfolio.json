@@ -32,7 +32,8 @@
             "Designation": "Teaching Assistant",
             "course": "CMPT 225 - Data Structures and Programming",
             "Duration": "Sep 2019 – Dec 2019",
-            "Responsibilities": "Provided assistance with assignments and lectures to 111 undergraduate students."
+            "Responsibilities": "Provided assistance with assignments and lectures to 111 undergraduate students.",
+            "Skills": "MySQL, Typescript, Java, HTML5, JQuery, CSS, Spring MVC."
         },
         {
             "Organization": "Infosys Limited",
@@ -48,7 +49,7 @@
             "Designation": "Systems Engineer",
             "Duration": "Feb 2015 – Aug 2016",
             "Responsibilities": "Worked as the sole programmer on this project, handled requirement gathering, designing, coding and releasing timely deliverables on the production environment.",
-            "skills": "PHP, jQuery, AJAX, JavaScript, HTML, CSS, MySQL, SVN, JSON."
+            "Skills": "PHP, jQuery, AJAX, JavaScript, HTML, CSS, MySQL, SVN, JSON."
         }
     ],
     "education": [
