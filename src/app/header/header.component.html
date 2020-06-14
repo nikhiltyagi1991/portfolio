@@ -1,12 +1,18 @@
 <div class="header-container">
     <div class="container">
-        <div class="js-name heading">{{ data['name'] }}</div>
+        <a routerLink="/">
+            <div class="js-name heading">{{ data['name'] }}</div>
+        </a>
         <div class="is-flex">
             <div class="js-designation sub-heading">{{data['designation']}}</div>
             <div class="menu-items is-flex-dm flex-content-centre">
-                <div><a routerLink="/">Home</a></div>
-                <div><a routerLink="/education">Education</a></div>
-                <div><a routerLink="/projects">Projects</a></div>
+                <div><a [ngClass]="{'is-active': router.url==='/'}" routerLink="/">Home</a></div>
+                <div>
+                    <a [ngClass]="{'is-active': router.url==='/education'}" routerLink="/education">
+                        Education & Projects
+                    </a>
+                </div>
+                <div><a [ngClass]="{'is-active': router.url==='/projects'}" routerLink="/projects">Experience</a></div>
                 <!-- <div><a routerLink="/contact">Contact</a></div> -->
             </div>
         </div>

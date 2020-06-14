@@ -1,5 +1,6 @@
+@import "~src/variables.scss";
 .education-container{
-    background-color: #EAE5E5;
+    background-color: $body-color;
     @media only screen and (max-width: 768px) {
         padding: 8px;
     }
@@ -7,6 +8,14 @@
         padding-top: 32px;
         font-size: 50px;
         font-weight: 500;
+    }
+
+    .projects-container {
+        .title {
+            margin-top: 32px;
+            font-size: 18px;
+            font-weight: 600;
+        }
     }
 
     .academics-container {
@@ -26,9 +35,9 @@
             }
 
             .school-inner-container {
-                box-shadow: 5px 5px 5px #F1F2F3;
+                box-shadow: 2px 2px 16px #F1F2F3;
                 padding: 16px;
-                background-color: white;
+                background-color: $card-bgcolor;
                 border-radius: 8px;
                 border-bottom: 8px solid #e33d3d;
             }

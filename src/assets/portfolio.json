@@ -5,7 +5,7 @@
     "phone": "+1 902-3291342",
     "linkedin": "https://www.linkedin.com/in/nikhltyagi/",
     "facebook": "https://www.facebook.com/nikhltyagi",
-    "intro": "Being a passionate Software Developer, I love to explore new technology with a zeal of creating something awesome. My understanding of the various computer science subjects has been backed by numerous projects in which I have played different roles like Developer, Designer and Tester. <br><br> The journey has always been more important to me than the end. I love the dedication, commitment and perseverance that is required to build a software. <br><br> I am always open for new challenges and problems. If you require help with one or need assistance with something, just drop a mail at nikhil_tyagi at outlook dot com.",
+    "intro": "Being a passionate Software Developer, I love to explore new technology with a zeal of creating something awesome. My understanding of the various computer science subjects has been backed by numerous projects in which I have played different roles like Developer, Designer and Tester. <br><br> The journey has always been more important to me than the end. I love the dedication, commitment and perseverance that is required to build a software.",
     "copyright": "© 2020 by Nikhil Tyagi.",
     "skills": {
         "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost,CatBoost, LightGBM, SVM",
@@ -54,28 +54,25 @@
     ],
     "education": [
         {
-            "School": "Simon Fraser University",
-            "Education Level": "Master's in Computer Science(Big Data)",
-            "Key Courses": "Machine Learning, Statistical Learning and Prediction, Programming in Big Data, Visualization, Big Data Systems, Algorithm in Big Data",
-            "duration": "Sep 2018–Apr 2020",
-            "score": "3.85",
-            "desc": "​I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
+            "School": "Dalhousie University",
+            "Education Level": "Master's in Applied Computer Science",
+            "Key Courses": "Machine Learning, Statistical Learning, Visualization, Web Development",
+            "duration": "Sep 2018 – Apr 2020",
+            "score": "3.88"
         },
         {
-            "School": "Uttarakhand Technical University",
-            "Education Level": "Bachelor's of Technology(Computer Science)",
+            "School": "Guru Gobind Singh Indraprastha University",
+            "Education Level": "Bachelor's of Technology (Computer Science)",
             "Key Courses": "Data Mining, Data Structures, Database Management Systems, Design and Analysis of Algorithms",
-            "duration": "Aug 2011–Jun 2014",
-            "score": "80%",
-            "desc": "​I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
+            "duration": "Aug 2010–Jun 2014",
+            "score": "80%"
         },
         {
-            "School": "Govt. Ploytechnic Insititute",
-            "Education Level": "Diploma in Computer Science",
+            "School": "Modern Public School",
+            "Education Level": "Senior Secondary School",
             "Key Courses": "Database Management, Software Engineering",
-            "duration": "Aug 2008–Jul 2011",
-            "score": "77%",
-            "desc": "​I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
+            "duration": "2009",
+            "score": "77%"
         }
     ],
     "projects": [

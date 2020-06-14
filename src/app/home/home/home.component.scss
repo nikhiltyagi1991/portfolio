@@ -1,5 +1,6 @@
+@import "~src/variables.scss";
 .profile-container {
-    background-color: #EAE5E5;
+    background-color: $body-color;
     min-height: 80vh;
     
     .profile-photo {
@@ -40,6 +41,6 @@
     }
     
     .higlight-buttons>a:hover {
-        background-color: #606361;
+        opacity: 0.5;
     }
 }

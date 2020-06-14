@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from '../services/portfolio/portfolio.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -9,12 +10,17 @@ import { PortfolioService } from '../services/portfolio/portfolio.service';
 export class HeaderComponent implements OnInit {
   data = {};
 
-  constructor(private portfolioService: PortfolioService) { }
+  constructor(private portfolioService: PortfolioService,
+    public router: Router) { }
 
   ngOnInit(): void {
     this.portfolioService.fetchPortfolioData().subscribe(d => {
       this.data = d;
     });
+  }
+
+  check(element) {
+    console.log(this.router.url);
   }
 
 }

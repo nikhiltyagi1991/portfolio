@@ -1,5 +1,6 @@
+@import "~src/variables.scss";
 .header-container {
-    background-color: #EAE5E5;
+    background-color: $body-color;
     @media only screen and (max-width: 768px) {
         padding: 8px;
     }
@@ -7,21 +8,26 @@
     .heading {
         font-size: 43px;
         font-weight: bold;
-        color: #4D4D4D;
+        color: $header-heading;
         padding-top: 32px;
     }
 
     .sub-heading {
         font-size: 18px;
         font-weight: bold;
-        color: #4D4D4D;
+        color: $header-sub-heading;
         margin-right: 150px;
     }
 
     .menu-items a {
         text-decoration: none;
         padding: 8px 16px;
-        color: #8B8B8B;
+        color: $header-menu-color;
         font-weight: bold;
+    }
+
+    .menu-items a.is-active {
+        border-bottom: 4px solid red;
+
     }
 }

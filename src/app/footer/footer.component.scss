@@ -1,5 +1,6 @@
+@import "~src/variables.scss";
 .footer-container {
-    background-color: #E83556;
+    background-color: $footer-color;
     color: white;
 
     .fa-stack {
