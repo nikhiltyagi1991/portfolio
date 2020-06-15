@@ -5,14 +5,20 @@
         padding: 8px;
     }
     .heading {
-        padding-top: 32px;
-        font-size: 50px;
+        padding: 32px 16px 16px 0px;
+        font-size: 32px;
         font-weight: 500;
     }
 
     .projects-container {
+        .project-img {
+            height: 30vh;
+            width: 30vw;
+            @media only screen and (max-width: 768px) {
+                width: auto;
+            }
+        }
         .title {
-            margin-top: 32px;
             font-size: 18px;
             font-weight: 600;
         }
@@ -27,7 +33,7 @@
         flex-wrap: wrap;
 
         .education {
-            width: 45%;
+            width: 30%;
             padding: 16px;
 
             @media only screen and (max-width: 768px) {

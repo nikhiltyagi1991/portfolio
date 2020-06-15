@@ -1,50 +1,57 @@
 <div class="education-container">
     <div class="container">
-        <div class="is-flex">
-            <div class="academics-container">
-                <div>
-                    <div class="projects-container">
-                        <div class="heading">Projects</div>
-                        <div>
-                            <div *ngFor="let project of data['projects']">
-                                <div class="title">
-                                    {{ project['title'] }}
+        <!-- <div class="is-flex"> -->
+        <div class="academics-container">
+            <div>
+                <div class="projects-container">
+                    <div class="heading"><i class="fas fa-tasks"></i> Projects</div>
+                    <div>
+                        <div *ngFor="let project of data['projects']">
+                            <div class="is-flex">
+                                <div class="flex-space">
+                                    <img class="project-img" src="/assets/{{project['image']}}"
+                                        alt="{{project['title']}}" srcset="">
                                 </div>
-                                <div>
-                                    <a href="{{ project['dashboard-link'] }}">Demo</a>
-                                    <a href="{{ project['github url'] }}">Github</a>
-                                </div>
-                                <div class="desc">
-                                    {{ project['about'] }}
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="heading">Academics</div>
-                    <div class="schools-container">
-                        <div class="education" *ngFor="let education of data['education']">
-                            <div class="school-inner-container">
-                                <div class="is-flex">
-                                    <div>{{ education['duration'] }}</div>
-                                    <div class="flex-space"></div>
-                                    <div title="score">{{ education['score'] }}</div>
-                                </div>
-                                <div class="title">{{ education['Education Level'] }}</div>
-                                <div class="courses">
-                                    <div class="course" *ngFor="let course of split(education['Key Courses'])">
-                                        {{ course }}
+                                <div class="flex-2 padding">
+                                    <div class="title">
+                                        {{ project['title'] }}
+                                    </div>
+                                    <div>
+                                        <a *ngIf="project['demo']" href="{{ project['demo'] }}">Demo</a>
+                                        <a *ngIf="project['github url']" href="{{ project['github url'] }}">Github</a>
+                                    </div>
+                                    <div class="desc">
+                                        {{ project['about'] }}
                                     </div>
                                 </div>
-                                <div class="edu-desc">{{ education['desc'] }}</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="skills-container">
+            <div>
+                <div class="heading"><i class="fas fa-book-reader"></i> Education</div>
+                <div class="schools-container">
+                    <div class="education" *ngFor="let education of data['education']">
+                        <div class="school-inner-container">
+                            <div class="is-flex">
+                                <div>{{ education['duration'] }}</div>
+                                <div class="flex-space"></div>
+                                <div title="score">{{ education['score'] }}</div>
+                            </div>
+                            <div class="title">{{ education['Education Level'] }}</div>
+                            <div class="courses">
+                                <div class="course" *ngFor="let course of split(education['Key Courses'])">
+                                    {{ course }}
+                                </div>
+                            </div>
+                            <div class="edu-desc">{{ education['desc'] }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="skills-container">
                 <div>
                     <div class="heading">Skills</div>
                     <div>
@@ -70,6 +77,6 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
