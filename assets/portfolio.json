@@ -1,12 +1,16 @@
 {
+    "salutation": "thank you for visiting",
     "name": "Nikhil Tyagi",
+    "resume": "nikhil.pdf",
     "designation": "Software Engineer, ML/DL Enthusiast",
     "email": "nikhil.tyagi62@gmail.com",
     "linkedin": "https://www.linkedin.com/in/nikhltyagi/",
     "facebook": "https://www.facebook.com/nikhltyagi",
     "github": "https://github.com/nikhiltyagi1991",
+    "image": "nik.png",
     "intro": "Being a passionate Software Developer, I love to explore new technology with a zeal of creating something awesome. My understanding of the various computer science subjects has been backed by numerous projects in which I have played different roles like Developer, Designer and Tester. <br><br> The journey has always been more important to me than the end. I love the dedication, commitment and perseverance that is required to build a software.",
     "copyright": "© 2020 by Nikhil Tyagi.",
+    "location": "Toronto, ON, Canada",
     "skills": {
         "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost,CatBoost, LightGBM, SVM",
         "Languages": "Python, R, Java, PHP, Angular, Bash Scripting, JavaScript, SQL",
@@ -19,37 +23,36 @@
     },
     "workexperience": [
         {
-            "Organization": "SSR Mining Inc.",
-            "location": "Vancouver, BC, Canada",
-            "Designation": "Data Science Intern",
-            "Duration": "May 2019 – Feb 2020",
-            "Responsibilities": "Collected and processed mining exploration data, Performed oversampling using SMOTE(Synthetic Minority Oversampling Technique), Developed decision tree and deep learning classifers to predict the gold distribution at SSR’s Gold mine site.",
-            "Skills": "Spark, S3, EC2, XGboost, LightGBM, CatBoost, Random Forest, SVM, H2O, MultiLayerPerceptron."
+            "Organization": "Kanetix Inc.",
+            "location": "Toronto ON, Canada",
+            "Designation": "Software Engineer",
+            "Duration": "Jan 2020 – Present",
+            "Responsibilities": "CMS development for various marketing websites. Understanding business requirements and create engaging UI/UX for Insurance Products. Creating visualizations and charts to show realtime quotes.",
+            "Skills": "Python, Wagtail, Django, AWS Lambda"
         },
         {
-            "Organization": "Simon Fraser University",
-            "location": "Burnaby, BC, Canada",
-            "Designation": "Teaching Assistant",
-            "course": "CMPT 225 - Data Structures and Programming",
+            "Organization": "Royal Bank of Canada",
+            "location": "Toronto, ON, Canada",
+            "Designation": "Engineer Co-op",
             "Duration": "Sep 2019 – Dec 2019",
-            "Responsibilities": "Provided assistance with assignments and lectures to 111 undergraduate students.",
-            "Skills": "MySQL, Typescript, Java, HTML5, JQuery, CSS, Spring MVC."
+            "Responsibilities": "Creating Jenkins pipelines for deployment and development environment for several Machine Learning projects. <br><br> Worked in Solutions Acceleration and Innovation team, creating automation scripts for smooth deployment from dev to prod builds.",
+            "Skills": "Python, Jupyter Notebook, Machine Learning, Jenkins, Github Management"
         },
         {
-            "Organization": "Infosys Limited",
-            "Designation": "Senior Systems Engineer",
+            "Organization": "Software Engineer",
+            "Designation": "uTrade Solutions",
             "location": "Chandigarh, India",
-            "Duration": "Sep 2016 – Jul 2018",
-            "Responsibilities": "Worked on various UI modules written in AngularJS and designed intuitive and useful interfaces based on client demands., Gathered requirements from the client on a daily basis and developed high-level diagrams and designs to incorporate new features in existing application.,Followed agile methodology for development and testing process.",
-            "Skills": "MySQL, Typescript, Java, HTML5, JQuery, CSS, Spring MVC."
+            "Duration": "Dec 2016 – Aug 2018",
+            "Responsibilities": "Researching and Developing blockchain based platform for issuance / verification of documents digitally. <br><br> Developing Web Platform for Trading in various stock exchanges.",
+            "Skills": "Python, JavaScript, Typescript, Angular, HTML5, JQuery, CSS"
         },
         {
             "Organization": "Infosys Limited",
-            "location": "Bhubaneswar, India",
+            "location": "Pune, India",
             "Designation": "Systems Engineer",
-            "Duration": "Feb 2015 – Aug 2016",
-            "Responsibilities": "Worked as the sole programmer on this project, handled requirement gathering, designing, coding and releasing timely deliverables on the production environment.",
-            "Skills": "PHP, jQuery, AJAX, JavaScript, HTML, CSS, MySQL, SVN, JSON."
+            "Duration": "Oct 2014 – Sep 2016",
+            "Responsibilities": "Developing an Order Management System for Openreach to provide Broadband and Telephony services.<br><br>Creating Low Level Designs and Test Plans to cater to cutting edge demands of the users. <br><br>Working along-side of designers to understand the Solution Design and develop code catering to all the requirements.",
+            "Skills": "JavaScript, FLOW, Angular."
         }
     ],
     "education": [
@@ -77,38 +80,37 @@
     ],
     "projects": [
         {
-            "title": "Understanding Global Poverty Using Visualization, Simon Fraser University",
-            "about": "Developed a visualization dashboard by utilizing visualization principles to understand the global poverty and various factors related to it.",
-            "dashboard-link": "https://povertyviz.herokuapp.com/",
-            "github url": "https://github.com/kiranrawat/extreme-poverty-visualization"
+            "title": "Patient visits visualization",
+            "about": "A visualization tool representing patients visits to a health centre. Built using D3.js, Javascript, HTML.",
+            "demo": "https://www.youtube.com/watch?v=6U8cWXSc9OI",
+            "github url": "",
+            "image": "hospital_viz.png"
         },
         {
-            "title": "Predicting Stable Portfolios using Machine Learning and Deep Learning",
-            "about": "Analyzed effect of sentiments of SEC filings on stock prices of S&P500 companies and predicted a stable portfolio based on sentiment scores and OHLC data using neural networks.",
-            "github url": "https://github.com/kiranrawat/equity-portfolio-prediction"
-        },
-        {
-            "title": "NYC Taxi Analysis, Simon Fraser University",
-            "about": "Performed ETL using PySpark and analyzed the dataset to provide the insights on how the taxi vendors in NYC can improve their business. Visualized the results using Kibana framework.",
-            "github url": "https://github.com/kiranrawat/Insights-to-the-existing-taxi-business-in-NYC."
+            "title": "Travel Buddy",
+            "about": "An application to collaborate and create itineraries. Has features like timeline view, map view, chat, notes etc. Made using: Angular 7, SailsJS, Javascript, HTML, SCSS",
+            "demo": "https://www.youtube.com/watch?v=3dRNubKjldI",
+            "github url": "",
+            "image": "travelbuddy.png"
         }
     ],
     "achivements": [],
     "blogs": [
         {
-            "title": "Predicting Stable Portfolios Using Machine Learning",
+            "title": "Medium Blogs",
             "date": "Apr 14, 2019",
-            "link": "https://medium.com/sfu-cspmp/predicting-stable-portfolios-using-machine-learning-f2e27d6dbbec"
+            "link": "https://medium.com/@nikhil.tyagi62"
         },
         {
-            "title": "Deep Learning using BigDL",
+            "title": "Rainylink",
             "date": "Mar 08, 2019",
-            "link": "https://medium.com/sfu-cspmp/when-deep-learning-got-big-a833a69be460"
+            "link": "http://blog.tagofy.com/"
         }
     ],
     "hobbies": [
-        "Cooking",
+        "Reading",
         "Hiking",
-        "Dancing"
+        "Sketching",
+        "Digital Painting"
     ]
 }
