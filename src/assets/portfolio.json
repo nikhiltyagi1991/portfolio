@@ -7,10 +7,34 @@
     "linkedin": "https://www.linkedin.com/in/nikhltyagi/",
     "facebook": "https://www.facebook.com/nikhltyagi",
     "github": "https://github.com/nikhiltyagi1991",
-    "image": "nik.png",
-    "intro": "Being a passionate Software Developer, I love to explore new technology with a zeal of creating something awesome. My understanding of the various computer science subjects has been backed by numerous projects in which I have played different roles like Developer, Designer and Tester. <br><br> The journey has always been more important to me than the end. I love the dedication, commitment and perseverance that is required to build a software.",
+    "images": [
+        "assets/own-pics/pic (1).jpg",
+        "assets/own-pics/pic (1).png",
+        "assets/own-pics/pic (2).jpg"
+    ],
+    "intro": "Being a passionate Software Developer, I love to explore new technology with a zeal of creating something awesome. <br><br> The journey has always been more important to me than the end. I love the dedication, commitment and perseverance that is required to build a software.<br><br>In my free time, I like to read, sketch and cook.",
     "copyright": "© 2020 by Nikhil Tyagi.",
     "location": "Toronto, ON, Canada",
+    "artwork": [
+        "assets/art-files/pic (1).jpg",
+        "assets/art-files/pic (1).png",
+        "assets/art-files/pic (2).jpg",
+        "assets/art-files/pic (2).png",
+        "assets/art-files/pic (3).jpg",
+        "assets/art-files/pic (3).png",
+        "assets/art-files/pic (4).jpg",
+        "assets/art-files/pic (4).png",
+        "assets/art-files/pic (5).jpg",
+        "assets/art-files/pic (6).jpg",
+        "assets/art-files/pic (7).jpg",
+        "assets/art-files/pic (8).jpg",
+        "assets/art-files/pic (9).jpg",
+        "assets/art-files/pic (10).jpg",
+        "assets/art-files/pic (11).jpg",
+        "assets/art-files/pic (12).jpg",
+        "assets/art-files/pic (13).jpg",
+        "assets/art-files/pic (14).jpg"
+    ],
     "skills": {
         "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost,CatBoost, LightGBM, SVM",
         "Languages": "Python, R, Java, PHP, Angular, Bash Scripting, JavaScript, SQL",
@@ -84,14 +108,16 @@
             "about": "A visualization tool representing patients visits to a health centre. Built using D3.js, Javascript, HTML.",
             "demo": "https://www.youtube.com/watch?v=6U8cWXSc9OI",
             "github url": "",
-            "image": "hospital_viz.png"
+            "image": "hospital_viz.png",
+            "youtube": "https://www.youtube.com/embed/6U8cWXSc9OI"
         },
         {
             "title": "Travel Buddy",
             "about": "An application to collaborate and create itineraries. Has features like timeline view, map view, chat, notes etc. Made using: Angular 7, SailsJS, Javascript, HTML, SCSS",
             "demo": "https://www.youtube.com/watch?v=3dRNubKjldI",
             "github url": "",
-            "image": "travelbuddy.png"
+            "image": "travelbuddy.png",
+            "youtube": "https://www.youtube.com/embed/3dRNubKjldI"
         }
     ],
     "achivements": [],

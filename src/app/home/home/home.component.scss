@@ -1,49 +1,82 @@
 @import "~src/variables.scss";
 .profile-container {
-    background-color: $body-color;
-    min-height: 80vh;
     
-    .profile-photo {
-        border-radius: 50%;
-        height: 500px;
 
-        @media only screen and (max-width: 768px) {
-            width: 80vw;
-            height: auto;
+    .artwork-container {
+        background-color: $body-color;
+
+        .artwork-content {
+            font-weight: bold;
+            padding: 32px;
+            color: white;
+            font-size: 18px;
+        }
+
+        .carousel {
+            
+            img {
+                max-height: 196px;
+                margin: 0px 8px;
+            }
+        }
+
+    }
+
+    a {
+        font-weight: bold;
+        font-size: 24px;
+        color: #ED9748;
+    }
+
+    .timeline-container {
+        img {
+            min-height: 269px;
+            max-width: 260px;
+            border-radius: 50%;
+            margin: auto;
+            display: block;
+        }
+
+        .timeline-content {
+            padding: 32px;
+        }
+
+        
+    }
+
+    .projects {
+        background-color: #ED9748;
+
+        .top-curve {
+            transform: scaleY(-1);
+        }
+
+        .prj-heading {
+            font-weight: bold;
+            font-size: 24px;
+            padding: 32px;
+            color: white;
+            a {
+                color: black;
+            }
+        }
+
+        .card {
+            margin: 16px;
+            padding: 16px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+
+            iframe {
+                margin: auto;
+                width: 100%;
+            }
         }
     }
-    
-    .profile-heading {
-        font: normal normal bold 80px/1.2em 'noticia text',serif;
-        color: #4D4D4D;
-    }
-    
-    .profile-sub-heading {
-        font: normal normal normal 46px/1.2em 'noticia text',serif;
-        color: #4D4D4D;
-    }
-    .intro {
-        margin-top: 32px;
-    }
-    
-    .higlight-buttons>a {
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        text-align: center;
-        margin: 8px;
-        justify-content: center;
-        background-color: #868a87;
-        cursor: pointer;
-        font-weight: 600;
-        color: white;
-        @media only screen and (max-width: 768px) {
-            height: 60px;
-            width: 60px;
-        }
-    }
-    
-    .higlight-buttons>a:hover {
-        opacity: 0.5;
+
+    .bottom-curve {
+        width: 105%;
+        margin: 0px 0px -8px -4px;
     }
 }

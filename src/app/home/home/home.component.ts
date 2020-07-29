@@ -1,20 +1,30 @@
 import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from 'src/app/services/portfolio/portfolio.service';
+declare const $: any;
+
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+    selector: 'app-home',
+    templateUrl: './home.component.html',
+    styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  data = {};
-  colors = ['#318524', '#a12ba1', '#a1792b'];
-  constructor(private portfolioService: PortfolioService) { }
+    data = {};
+    colors = ['#318524', '#a12ba1', '#a1792b'];
+    constructor(private portfolioService: PortfolioService) { }
 
-  ngOnInit(): void {
-    this.portfolioService.fetchPortfolioData().subscribe(d => {
-      this.data = d;
-    });
-  }
+    ngOnInit(): void {
+        this.portfolioService.fetchPortfolioData().subscribe(d => {
+            this.data = d;
+        });
 
+
+    }
+
+    ngAfterViewInit(): void {
+        setTimeout(() => {
+            $('.carousel').slick();
+        }, 1000);
+
+    }
 }

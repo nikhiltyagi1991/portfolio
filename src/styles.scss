@@ -2,12 +2,16 @@
 
 body{
     margin: 0px;
-    font-family: 'Roboto';
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 .container {
@@ -51,4 +55,66 @@ a {
     align-items: center;
 }
 
+.text-center {
+    text-align: center;
+}
 
+.white-text {
+    color: white;
+}
+
+
+.slick-slider {
+    .slick-track {
+        display: flex;
+        align-items: center;
+    }
+    .slick-prev {
+        left: 8px;
+        &::before {
+            content: "\f104";
+        }
+    }
+    .slick-next {
+        right: 8px;
+        &::before{
+            content: "\f105";
+        }
+    }
+
+    .slick-prev, .slick-next {
+        z-index: 10;
+        &::before {
+            font-family: "Font Awesome 5 Pro";
+            color: rgba(35, 35, 35, 0.61);
+            font-size: 36px;
+        }
+    }
+
+    .slick-dots li {
+        margin: 0px;
+    }
+
+    .slick-dots li button::before {
+        width: 12px;
+        height: 12px;
+        content: ' ';
+        opacity: 1;
+        background-color: white;
+        border-radius: 50%;
+        border: 2px solid #4F66B6;
+    }
+
+    .slick-dots li.slick-active button::before {
+        opacity: 1;
+        border: 2px solid white;
+        background-color: #4F66B6;
+    }
+
+    .slick-list .slick-track .slick-current {
+        transform: scale(1.1);
+        max-height: 220px !important;
+    }
+
+
+}
