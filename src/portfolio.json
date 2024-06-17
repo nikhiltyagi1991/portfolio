@@ -4,11 +4,13 @@
     "first_name": "Nikhil",
     "last_name": "Tyagi",
     "resume": "nikhil.pdf",
-    "designation": "Full Stack Developer, ML/DL Enthusiast",
+    "designation": "Full Stack Developer, ML Ops Engineer",
     "email": "nikhil.tyagi62@gmail.com",
     "linkedin": "https://www.linkedin.com/in/nikhltyagi/",
     "facebook": "https://www.facebook.com/nikhltyagi",
     "github": "https://github.com/nikhiltyagi1991",
+    "instagram": "https://www.instagram.com/nik.artshop/",
+    "twitter": "https://x.com/nikhltyagi",
     "own_pic": "/assets/own-pics/blurred.png",
     "intro": "Being a passionate Software Developer, I love to explore new technology with a zeal of creating something awesome. <br><br> The journey has always been more important to me than the end. I love the dedication, commitment and perseverance that is required to build a software.<br><br>In my free time, I like to read, sketch and do some urban gardening.",
     "copyright": "© 2020 by Nikhil Tyagi.",
@@ -34,14 +36,57 @@
         "/assets/art-files/pic (14).jpg"
     ],
     "skills": {
-        "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost,CatBoost, LightGBM, SVM",
-        "Languages": "Python, R, Java, PHP, Angular, Bash Scripting, JavaScript, SQL",
-        "Frameworks": "Apache Spark, Anaconda/Spyder, Maven, Spring",
-        "Development and Deployment Tools": "Openshift, Docker, Kubernetes, Git, JIRA, Jupyter, VS Code, RStudio",
-        "Databases": "NoSQL Cassandra, MySQL, Oracle 10g",
-        "Hadoop Ecosystems": "HDFS, Kafka, Map Reduce, Hadoop Streaming",
-        "Cloud Computing Services": "AWS, GCP",
-        "Visualization Tools and Libraries": "Tableau,Kibana, D3.js, Matplotlib, Plotly, Seaborn"
+        "heading": "Skills",
+        "summary": "I believe <strong>Problem-solving</strong> is a crucial skill in software development. Being open to learning new technologies as required by business demands is essential.",
+        "leftSection": {
+            "heading": "What I bring to the table?",
+            "summary": "I thrive in high-intensity teams, where I can contribute and deliver results that directly impact business productivity metrics.",
+            "components": [
+                {
+                    "text": "6",
+                    "subtext": "Companies"
+                },
+                {
+                    "text": "47",
+                    "subtext": "Projects Completed"
+                },
+                {
+                    "text": "8",
+                    "subtext": "Years of Experience"
+                }
+            ]
+        },
+        "rightSection": {
+            "keySkills": [
+                {
+                    "name": "Python",
+                    "expertise": 95
+                },
+                {
+                    "name": "React",
+                    "expertise": 90
+                },
+                {
+                    "name": "Terraform",
+                    "expertise": 85
+                },
+                {
+                    "name": "Docker",
+                    "expertise": 98
+                },
+                {
+                    "name": "Typescript",
+                    "expertise": 97
+                }
+            ],
+            "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost, CatBoost, LightGBM, SVM",
+            "Languages": "Python, R, Java, PHP, Angular, Bash Scripting, JavaScript, SQL",
+            "Frameworks": "Apache Spark, Anaconda/Spyder, Maven, Spring",
+            "Development and Deployment Tools": "Openshift, Docker, Kubernetes, Git, JIRA, Jupyter, VS Code, RStudio",
+            "Databases": "NoSQL Cassandra, MySQL, Oracle 10g",
+            "Cloud Computing Services": "AWS, GCP",
+            "Visualization Tools and Libraries": "Tableau,Kibana, D3.js, Matplotlib, Plotly, Seaborn"
+        }
     },
     "workexperience": [
         {
