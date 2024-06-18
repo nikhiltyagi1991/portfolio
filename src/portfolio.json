@@ -13,8 +13,9 @@
     "twitter": "https://x.com/nikhltyagi",
     "own_pic": "/assets/own-pics/blurred.png",
     "intro": "Being a passionate Software Developer, I love to explore new technology with a zeal of creating something awesome. <br><br> The journey has always been more important to me than the end. I love the dedication, commitment and perseverance that is required to build a software.<br><br>In my free time, I like to read, sketch and do some urban gardening.",
-    "copyright": "© 2020 by Nikhil Tyagi.",
-    "location": "Toronto, ON, Canada",
+    "copyright": "© 2023 by Nikhil Tyagi.",
+    "location": "Vancouver, BC, Canada",
+    "experienceSummary": "Having five years of expertise working in various roles in software development, I have honed my skills in coding, debugging, and optimizing applications, as well as gained significant experience in collaborating with cross-functional teams to deliver high-quality software solutions.",
     "artwork": [
         "/assets/art-files/pic (1).jpg",
         "/assets/art-files/pic (1).png",
@@ -90,54 +91,59 @@
     },
     "workexperience": [
         {
-            "Organization": "Teck Metals",
+            "organization": "Teck Metals",
             "location": "Vancouver, BC, Canada",
             "Designation": "Full Stack Developer",
             "Duration": "July 2021 – Present",
             "Responsibilities": "Building data science applications using sensor data and providing solutions for critical mining fleet management under the Load and Haul Team.",
             "Skills": "Python, FastAPI, Databricks, Terraform, Azure",
             "icon": "/assets/company-icons/teck-logo.jpg",
-            "link": "https://www.teck.com/"
+            "link": "https://www.teck.com/",
+            "latlong": [49.2858813, -123.1208496]
         },
         {
-            "Organization": "RATESDOTCA",
+            "organization": "RATESDOTCA",
             "location": "Toronto, ON, Canada",
             "Designation": "Software Engineer",
             "Duration": "Jan 2020 – July 2021",
             "Responsibilities": "CMS development for various marketing websites. Understanding business requirements and create engaging UI/UX for Insurance Products. Creating visualizations and charts to show realtime quotes.",
             "Skills": "Python, Wagtail, Django, AWS Lambda",
             "icon": "/assets/company-icons/rates-logo.jpg",
-            "link": "https://rates.ca/"
+            "link": "https://rates.ca/",
+            "latlong": [43.6455623, -79.3876073]
         },
         {
-            "Organization": "Royal Bank of Canada",
+            "organization": "Royal Bank of Canada",
             "location": "Toronto, ON, Canada",
             "Designation": "Engineer Co-op",
             "Duration": "Sep 2019 – Dec 2019",
             "Responsibilities": "Creating Jenkins pipelines for deployment and development environment for several Machine Learning projects. <br><br> Worked in Solutions Acceleration and Innovation team, creating automation scripts for smooth deployment from dev to prod builds.",
             "Skills": "Python, Jupyter Notebook, Machine Learning, Jenkins, Github Management",
             "icon": "/assets/company-icons/rbc-logo.jpg",
-            "link": "https://www.rbc.com/"
+            "link": "https://www.rbc.com/",
+            "latlong": [43.6405577, -79.3811391]
         },
         {
-            "Organization": "uTrade Solutions",
+            "organization": "uTrade Solutions",
             "Designation": "Software Engineer",
             "location": "Chandigarh, India",
             "Duration": "Dec 2016 – Aug 2018",
             "Responsibilities": "Researching and Developing blockchain based platform for issuance / verification of documents digitally. <br><br> Developing Web Platform for Trading in various stock exchanges.",
             "Skills": "Python, JavaScript, Typescript, Angular, HTML5, JQuery, CSS",
             "icon": "/assets/company-icons/utrade-logo.jpg",
-            "link": "https://utradesolutions.com/"
+            "link": "https://utradesolutions.com/",
+            "latlong": [30.710953, 76.7083603]
         },
         {
-            "Organization": "Infosys Limited",
+            "organization": "Infosys Limited",
             "location": "Pune, India",
             "Designation": "Systems Engineer",
             "Duration": "Oct 2014 – Sep 2016",
             "Responsibilities": "Developing an Order Management System for Openreach to provide Broadband and Telephony services.<br><br>Creating Low Level Designs and Test Plans to cater to cutting edge demands of the users. <br><br>Working along-side of designers to understand the Solution Design and develop code catering to all the requirements.",
             "Skills": "JavaScript, FLOW, Angular.",
             "icon": "/assets/company-icons/infosys-logo.jpg",
-            "link": "https://www.infosys.com/"
+            "link": "https://www.infosys.com/",
+            "latlong": [18.5941177,73.6968599]
         }
     ],
     "education": [

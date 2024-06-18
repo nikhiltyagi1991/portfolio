@@ -3,14 +3,17 @@ import portfolio from './portfolio.json';
 import React from 'react';
 import { MoonIcon, SunIcon } from '@heroicons/react/24/solid';
 import { FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from './icons';
+import "leaflet/dist/leaflet.css";
+import Experience from './components/experience/Experience';
 
 function App() {
 
   const commaSplitDesignation = portfolio.designation.split(',');
   const [isDarkTheme, setIsDarkTheme] = React.useState(window.matchMedia("(prefers-color-scheme: dark)").matches);
+
   const handleChangeInMode = () => {
     setIsDarkTheme(!isDarkTheme);
-  }
+  };
 
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
     setIsDarkTheme(event.matches);
@@ -19,7 +22,7 @@ function App() {
   React.useEffect(() => {
     const htmlElement = document.getElementsByTagName('html').item(0);
     htmlElement.classList[isDarkTheme? 'add' : 'remove']('dark');
-  }, [isDarkTheme])
+  }, [isDarkTheme]);
 
   return (
     <div className='bg-white text-black dark:text-white dark:bg-black'>
@@ -43,18 +46,19 @@ function App() {
               <div>{portfolio.last_name}.</div>
             </div>
             <div className='mt-8 bg-black h-2 w-16 rounded-2xl dark:bg-white'></div>
-            <div>
-              
+            <div className='flex gap-4 mt-8'>
+              <a href={portfolio.linkedin} className='hover:text-gray-400'> <LinkedInIcon className='w-10 h-10' /> </a>
+              <a href={portfolio.github} className='hover:text-gray-400'> <GithubIcon className='w-10 h-10' /> </a>
             </div>
           </div>
           <div className='flex-[2_1_0%] self-end'>
             <img src={portfolio.own_pic} alt={portfolio.first_name} />
           </div>
           <div className='flex-1 mb-32'>
-            <div className='text-5xl'>
+            <div className='text-3xl'>
               {commaSplitDesignation.map((x,i) => <div key={x}>{x}{commaSplitDesignation.length===i+1?'':','}</div>)}
             </div>
-            <div className='mt-8' dangerouslySetInnerHTML={{__html: portfolio.intro}}></div>
+            <div className='mt-8 text-sm' dangerouslySetInnerHTML={{__html: portfolio.intro}}></div>
           </div>
         </div>
       </div>
@@ -68,8 +72,8 @@ function App() {
           <div className='flex-1'></div>
           <div className='flex gap-8 md:gap-4 items-center'>
             {
-              portfolio.workexperience.map(x => <a key={x.Organization} href={x.link}>
-                <img className='rounded-xl' width={64} height={64} src={x.icon} alt={x.Organization} title={x.Organization} />
+              portfolio.workexperience.map(x => <a key={x.organization} href={x.link}>
+                <img className='rounded-xl' width={64} height={64} src={x.icon} alt={x.organization} title={x.organization} />
                 </a>
               )
             }
@@ -113,6 +117,29 @@ function App() {
         </div>
       </div>
 
+      <div>
+        <Experience />
+      </div>
+
+      <div className='bg-gray-200 dark:bg-gray-800'>
+        <div className='container'>
+          <div className='py-8'>
+            <div className='text-5xl text-center'>Projects</div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div>
+        <div className='container'>
+          <div className='py-8'>
+            <div className='text-5xl text-center'>Hobbies & Artwork</div>
+          </div>
+        </div>
+      </div>
+
+      
+
       {/* Footer */}
       <div className='bg-gray-300 dark:bg-inherit'>
         <div className='container py-4'>
@@ -125,10 +152,9 @@ function App() {
               <div>Follow Me</div>
               <div className='flex gap-4 mt-4 cursor-pointer'>
                 <a href={portfolio.linkedin} className='hover:text-gray-400'> <LinkedInIcon /> </a>
-                <a href={portfolio.twitter} className='hover:text-gray-400'> <TwitterIcon /> </a>
-                <a href={portfolio.facebook} className='hover:text-gray-400'> <FacebookIcon /> </a>
                 <a href={portfolio.github} className='hover:text-gray-400'> <GithubIcon /> </a>
                 <a href={portfolio.instagram} className='hover:text-gray-400'> <InstagramIcon /> </a>
+                <a href={portfolio.facebook} className='hover:text-gray-400'> <FacebookIcon /> </a>
                 <a href={portfolio.twitter} className='hover:text-gray-400'> <TwitterIcon /> </a>
               </div>
             </div>
