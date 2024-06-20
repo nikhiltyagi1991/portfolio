@@ -9,7 +9,7 @@ import {
 import useEmblaCarousel from 'embla-carousel-react'
 
 const EmblaCarousel = (props) => {
-  const { slides, options, slidesInView } = props;
+  const { slides, options, slideChangeHandler } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
 
   const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi);
@@ -21,8 +21,10 @@ const EmblaCarousel = (props) => {
   } = usePrevNextButtons(emblaApi);
 
   React.useEffect(() => {
-    slidesInView(selectedIndex);
-  }, [slidesInView, selectedIndex])
+    if (slideChangeHandler) {
+      slideChangeHandler(selectedIndex);
+    }
+  }, [slideChangeHandler, selectedIndex])
 
   return (
     <section className="embla">

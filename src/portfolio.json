@@ -99,7 +99,10 @@
             "Skills": "Python, FastAPI, Databricks, Terraform, Azure",
             "icon": "/assets/company-icons/teck-logo.jpg",
             "link": "https://www.teck.com/",
-            "latlong": [49.2858813, -123.1208496]
+            "latlong": [
+                49.2858813,
+                -123.1208496
+            ]
         },
         {
             "organization": "RATESDOTCA",
@@ -110,7 +113,10 @@
             "Skills": "Python, Wagtail, Django, AWS Lambda",
             "icon": "/assets/company-icons/rates-logo.jpg",
             "link": "https://rates.ca/",
-            "latlong": [43.6455623, -79.3876073]
+            "latlong": [
+                43.6455623,
+                -79.3876073
+            ]
         },
         {
             "organization": "Royal Bank of Canada",
@@ -121,7 +127,10 @@
             "Skills": "Python, Jupyter Notebook, Machine Learning, Jenkins, Github Management",
             "icon": "/assets/company-icons/rbc-logo.jpg",
             "link": "https://www.rbc.com/",
-            "latlong": [43.6405577, -79.3811391]
+            "latlong": [
+                43.6405577,
+                -79.3811391
+            ]
         },
         {
             "organization": "uTrade Solutions",
@@ -132,7 +141,10 @@
             "Skills": "Python, JavaScript, Typescript, Angular, HTML5, JQuery, CSS",
             "icon": "/assets/company-icons/utrade-logo.jpg",
             "link": "https://utradesolutions.com/",
-            "latlong": [30.710953, 76.7083603]
+            "latlong": [
+                30.710953,
+                76.7083603
+            ]
         },
         {
             "organization": "Infosys Limited",
@@ -143,7 +155,10 @@
             "Skills": "JavaScript, FLOW, Angular.",
             "icon": "/assets/company-icons/infosys-logo.jpg",
             "link": "https://www.infosys.com/",
-            "latlong": [18.5941177,73.6968599]
+            "latlong": [
+                18.5941177,
+                73.6968599
+            ]
         }
     ],
     "education": [
@@ -174,16 +189,16 @@
             "title": "Patient visits visualization",
             "about": "A visualization tool representing patients visits to a health centre. Built using D3.js, Javascript, HTML.",
             "demo": "https://www.youtube.com/watch?v=6U8cWXSc9OI",
-            "github url": "",
-            "image": "hospital_viz.png",
+            "githubUrl": "",
+            "image": "/assets/project-imgs/hospital_viz.png",
             "youtube": "https://www.youtube.com/embed/6U8cWXSc9OI"
         },
         {
             "title": "Travel Buddy",
             "about": "An application to collaborate and create itineraries. Has features like timeline view, map view, chat, notes etc. Made using: Angular 7, SailsJS, Javascript, HTML, SCSS",
             "demo": "https://www.youtube.com/watch?v=3dRNubKjldI",
-            "github url": "",
-            "image": "travelbuddy.png",
+            "githubUrl": "",
+            "image": "/assets/project-imgs/travelbuddy.png",
             "youtube": "https://www.youtube.com/embed/3dRNubKjldI"
         }
     ],
