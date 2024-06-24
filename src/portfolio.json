@@ -16,6 +16,7 @@
     "copyright": "© 2023 by Nikhil Tyagi.",
     "location": "Vancouver, BC, Canada",
     "experienceSummary": "Having five years of expertise working in various roles in software development, I have honed my skills in coding, debugging, and optimizing applications, as well as gained significant experience in collaborating with cross-functional teams to deliver high-quality software solutions.",
+    "projectsSummary": "Here are some of the individual projects I worked on during my master's program. Despite the limited timeframe, they hold a special place in my heart.",
     "artwork": [
         "/assets/art-files/pic (1).jpg",
         "/assets/art-files/pic (1).png",
@@ -79,23 +80,29 @@
                     "name": "Typescript",
                     "expertise": 97
                 }
-            ],
-            "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost, CatBoost, LightGBM, SVM",
-            "Languages": "Python, R, Java, PHP, Angular, Bash Scripting, JavaScript, SQL",
-            "Frameworks": "Apache Spark, Anaconda/Spyder, Maven, Spring",
-            "Development and Deployment Tools": "Openshift, Docker, Kubernetes, Git, JIRA, Jupyter, VS Code, RStudio",
-            "Databases": "NoSQL Cassandra, MySQL, Oracle 10g",
-            "Cloud Computing Services": "AWS, GCP",
-            "Visualization Tools and Libraries": "Tableau,Kibana, D3.js, Matplotlib, Plotly, Seaborn"
+            ]
+        },
+        "otherSkills": {
+            "heading": "I love to <b>learn</b>",
+            "subheading": "Here are the technologies I have worked with so far, and I am eager to discover the insights and knowledge that my upcoming projects will offer",
+            "skillCategories": {
+                "ML Libraries": "Pytorch, Keras, TensorFlow, Scikit Learn, Pandas, NumPy, H2O, XGboost, CatBoost, LightGBM, SVM",
+                "Languages": "Python, JavaScript, TypeScript, Bash Scripting, SQL, Java, PHP, R",
+                "Frameworks": "FastAPI, Wagtail, React, SailsJS, ExpressJS",
+                "Development and Deployment Tools": "Terraform, Azure Functions, Azure App Service, Openshift, Docker, Kubernetes, GIT, Jupyter Notebooks, VS Code",
+                "Databases": "Microsoft SQL Server, PostgreSQL, CosmosDB, MongoDB",
+                "Cloud Computing Services": "AWS, Azure",
+                "Visualization Tools and Libraries": "Tableau, Kibana, D3.js, Matplotlib, Plotly, Seaborn"
+            }
         }
     },
     "workexperience": [
         {
             "organization": "Teck Metals",
             "location": "Vancouver, BC, Canada",
-            "Designation": "Full Stack Developer",
+            "Designation": "Full Stack Developer III",
             "Duration": "July 2021 – Present",
-            "Responsibilities": "Building data science applications using sensor data and providing solutions for critical mining fleet management under the Load and Haul Team.",
+            "Responsibilities": "Building data science applications using sensor data and providing solutions for critical mining fleet management under the Load and Haul Team involves leveraging advanced analytics to optimize operations and enhance safety. <br>This includes developing predictive models to minimize downtime, implementing real-time monitoring systems for improved efficiency, and integrating machine learning algorithms for managing load and haul processes in mining.<br>By harnessing sensor data from mining equipment, we can enhance productivity, reduce operational costs, and ensure compliance with safety regulations, thereby transforming mining fleet management into a streamlined and data-driven process.",
             "Skills": "Python, FastAPI, Databricks, Terraform, Azure",
             "icon": "/assets/company-icons/teck-logo.jpg",
             "link": "https://www.teck.com/",

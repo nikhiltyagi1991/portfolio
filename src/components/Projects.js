@@ -21,17 +21,18 @@ const Projects = () => {
     }
 
     return (
-        <div className='bg-gray-200 dark:bg-gray-800'>
+        <div className='bg-gray-100 dark:bg-gray-800'>
             <div className='container'>
                 <div className='py-8'>
                     <div className='text-5xl text-center'>Projects</div>
-                    <div className='flex my-8'>
+                    <div className='text-center my-4 text-lg lg:w-3/4 lg:mx-auto'>{portfolio.projectsSummary}</div>
+                    <div className='flex flex-col md:flex-row my-8'>
                         <div className='flex-1'>
                             <EmblaCarousel slides={SLIDES} options={OPTIONS} slideChangeHandler={handleSlideChange} />
                         </div>
                         <div className='flex-1'>
                             <iframe
-                                className='w-full h-full p-8 rounded-md'
+                                className='w-full h-full pt-8 md:p-8 rounded-md'
                                 src={selectedProject.youtube}
                                 title={selectedProject.title}
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
