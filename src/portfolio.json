@@ -92,7 +92,7 @@
                 "Development and Deployment Tools": "Terraform, Azure Functions, Azure App Service, Openshift, Docker, Kubernetes, GIT, Jupyter Notebooks, VS Code",
                 "Databases": "Microsoft SQL Server, PostgreSQL, CosmosDB, MongoDB",
                 "Cloud Computing Services": "AWS, Azure",
-                "Visualization Tools and Libraries": "Tableau, Kibana, D3.js, Matplotlib, Plotly, Seaborn"
+                "Visualization Tools and Libraries": "Tableau, D3.js, Matplotlib, Plotly, Seaborn"
             }
         }
     },
