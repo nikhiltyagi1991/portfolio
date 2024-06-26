@@ -1,5 +1,5 @@
 import portfolio from '../portfolio.json';
-import { FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from '../icons';
+import { EmailIcon, FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from '../icons';
 
 const Footer = () => {
     return (
@@ -13,6 +13,7 @@ const Footer = () => {
                     <div>
                         <div>Follow Me</div>
                         <div className='flex gap-4 mt-4 cursor-pointer'>
+                            <a href={`mailto:${portfolio.email}`} className='hover:text-gray-400'> <EmailIcon /> </a>
                             <a href={portfolio.linkedin} className='hover:text-gray-400'> <LinkedInIcon /> </a>
                             <a href={portfolio.github} className='hover:text-gray-400'> <GithubIcon /> </a>
                             <a href={portfolio.instagram} className='hover:text-gray-400'> <InstagramIcon /> </a>

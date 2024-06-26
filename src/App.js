@@ -1,7 +1,7 @@
 import './App.css';
 import portfolio from './portfolio.json';
 import React from 'react';
-import { GithubIcon, LinkedInIcon } from './icons';
+import { EmailIcon, GithubIcon, LinkedInIcon } from './icons';
 import "leaflet/dist/leaflet.css";
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -32,6 +32,7 @@ function App() {
             <div className='flex gap-4 mt-8'>
               <a href={portfolio.linkedin} className='hover:text-gray-400'> <LinkedInIcon className='w-10 h-10' /> </a>
               <a href={portfolio.github} className='hover:text-gray-400'> <GithubIcon className='w-10 h-10' /> </a>
+              <a href={`mailto:${portfolio.email}`} className='hover:text-gray-400'> <EmailIcon className='w-10 h-10' /> </a>
             </div>
           </div>
           <div className='flex-[2_1_0%] self-end'>

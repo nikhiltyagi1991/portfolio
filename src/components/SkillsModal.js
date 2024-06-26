@@ -1,6 +1,7 @@
 import React from 'react';
 import { Dialog, DialogPanel, Transition, TransitionChild } from '@headlessui/react';
 import portfolio from '../portfolio.json';
+import { XMarkIcon } from '@heroicons/react/24/solid';
 
 const SkillsModal = (params) => {
     const { modalOpen, handleClose } = params;
@@ -46,6 +47,7 @@ const SkillsModal = (params) => {
                             <DialogPanel className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-3xl">
                                 <div className='p-8 z-20'>
                                     <div className='text-center text-3xl' dangerouslySetInnerHTML={{ __html: portfolio.skills.otherSkills.heading }}></div>
+                                    <div className='absolute right-2 top-2' onClick={handleClose} ><XMarkIcon className="size-6" /></div>
                                     <div className='text-center my-8' dangerouslySetInnerHTML={{ __html: portfolio.skills.otherSkills.subheading }}></div>
                                     <div className='grid grid-cols-2 md:grid-cols-4 gap-4'>
                                         {otherSkills()}
