@@ -1,6 +1,5 @@
 import React from 'react';
 import portfolio from '../portfolio.json';
-import { Spinner } from '../icons';
 import ImageLoader from './ImageLoader';
 
 const Hobbies = () => {
@@ -10,6 +9,7 @@ const Hobbies = () => {
             <div className='container'>
                 <div className='py-8'>
                     <div className='text-5xl text-center mb-8'>Hobbies & Artwork</div>
+                    <div className='text-3xl text-center mb-8'>{portfolio.hobbies.join(', ')}</div>
                     <div className="grid gap-4">
                         <div className='w-full flex items-center'>
                             <div className='m-auto max-w-full rounded-lg'>
@@ -43,17 +43,3 @@ const Hobbies = () => {
 };
 
 export default Hobbies;
-
-
-
-{/* <div className="w-fit" key={x}>
-                                    <Spinner style={{ display: loadingArray[idx] ? 'block' : 'none' }} />
-                                    <img
-                                        onClick={() => setSelectedArt(x)}
-                                        loading="lazy"
-                                        className={`h-32 ${x === selectedArt && 'border-gray-500 border-8'}`}
-                                        alt={x}
-                                        src={x}
-                                        onLoad={() => { console.log('on load called'); handleOnLoad(idx); }}
-                                    />
-                                </div> */}
