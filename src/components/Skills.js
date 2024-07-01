@@ -35,10 +35,10 @@ const Skills = () => {
                     <div className='flex-1 flex flex-col gap-4 self-center w-full py-8 md:p-auto'>
                         {portfolio.skills.rightSection.keySkills.map(x => <div key={x.name} title={`${x.expertise}%`} className='flex items-center gap-4'>
                             <div className='text-xl w-1/2 md:pl-8'>{x.name}</div>
-                            <div className='w-full h-2 flex rounded-lg'>
-                                <div style={{ width: `${x.expertise}%` }} className='bg-black h-2 rounded-lg relative z-10'></div>
-                                <div style={{ width: `${100 - x.expertise}%` }} className='bg-white h-2 rounded-lg'></div>
+                            <div className='w-full h-2 bg-black rounded-lg'>
+                                <div style={{ width: `${x.expertise}%` }} className='bg-slate-400 h-2 rounded-lg'></div>
                             </div>
+                            <div className='text-slate-400'>{x.expertise}%</div>
                         </div>)}
                         <button onClick={handleSkillsModal} className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 w-1/2 self-center rounded mt-8">
                             More...
